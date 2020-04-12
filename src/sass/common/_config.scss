@@ -1,0 +1,46 @@
+// color
+$black: #333;
+
+// text color
+$text_color: $black;
+
+// sns
+$twitter_color: #1DA1F2;
+$facebook_color: #1877f2;
+$line_color: #00B900;
+
+// width
+$content_width: 900px;
+
+// height
+
+// space
+$space_tiny: 10rem;
+$space_small: 15rem;
+$space_middle: 20rem;
+$space_large: 30rem;
+$space_big: 40rem;
+$space_huge: 60rem;
+
+
+// z-index
+$modal_zindex: 9999;
+
+// image
+$image_path: './assets/images';
+
+// font weight
+$font_normal: 300;
+$font_bold: 500;
+$font_bolder: 700;
+
+// web font
+// $font_path: 'フォントのパス';
+//
+// $fontName_path: $font_path + 'フォントファイル';
+// $fontName: 'フォント名';
+
+$font_family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+
+// animation
+$animate: 300ms ease-in;
