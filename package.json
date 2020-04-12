@@ -1,0 +1,26 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "npx sass --watch --style compressed ./src/sass/:./html/css",
+    "server": "npx http-server -p 8080 ./html",
+    "dev": "concurrently \"npm run sass\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanotoGit/components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanotoGit/components/issues"
+  },
+  "homepage": "https://github.com/kanotoGit/components#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "http-server": "^0.12.1",
+    "sass": "^1.26.3"
+  }
+}
